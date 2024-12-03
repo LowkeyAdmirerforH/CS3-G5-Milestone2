@@ -1,0 +1,111 @@
+		/* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            color: #e6e6e6;
+            background-color: #1b1b1f;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        /* Container for Main Content */
+        .article-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px;
+            background: linear-gradient(135deg, #2d2d34, #1f1f24);
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+            border: 1px solid #444;
+        }
+
+        /* Article Title */
+        .article-container h1 {
+            font-size: 2.8em;
+            color: #ffcc29;
+            margin-bottom: 20px;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        /* Article Subtitle */
+        .article-container h2 {
+            color: #e63946;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            text-align: center;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+        }
+
+        /* Paragraph Styling */
+        .article-container p {
+            color: #d4d4d8;
+            margin-bottom: 20px;
+            line-height: 1.8;
+            text-align: justify;
+            font-size: 1.1em;
+        }
+
+        /* Highlighted Terms Styling */
+        .highlight {
+            color: #ffcc29;
+            font-weight: bold;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Link Styling */
+        .article-container a {
+            color: #ffcc29;
+            text-decoration: none;
+            font-weight: bold;
+            border-bottom: 2px solid #e63946;
+        }
+
+        .article-container a:hover {
+            color: #e63946;
+            border-bottom-color: #ffcc29;
+            text-decoration: underline;
+        }
+
+        /* Callout Box for Key Points */
+        .callout-box {
+            background: linear-gradient(135deg, #353542, #2d2d39);
+            border-left: 4px solid #e63946;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            color: #d4d4d8;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+        }
+
+        /* Responsive Media Queries */
+        .article-container h1 {
+            font-size: 2.3em;
+        }
+
+        .article-container h2 {
+            font-size: 1.5em;
+        }
+
+        .article-container p {
+            font-size: 1em;
+        }
+		
+		.back-button {
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            color: #e6e6e6;
+            background-color: #b22222;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
