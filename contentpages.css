@@ -1,0 +1,54 @@
+		/* Same basic styling as milestone.html */
+        body {
+            font-family: Arial, sans-serif;
+            color: #e6e6e6;
+            background-color: #1b1b1f;
+            padding: 20px;
+        }
+		
+		header {
+			text-align: center;
+		}
+
+        .article-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px;
+            background: linear-gradient(135deg, #2d2d34, #1f1f24);
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+            border: 1px solid #444;
+        }
+
+        .back-button {
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            color: #e6e6e6;
+            background-color: #b22222;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .back-button:hover {
+            background-color: #ffcc29;
+            color: #1e1e1e;
+        }
+
+        .highlight {
+            color: #ffcc29;
+            font-weight: bold;
+        }
+		
+		.article-links a:hover {
+            color: #b22222;
+        }
+		
+		.article-links a {
+            display: block;
+            color: #ffc107;
+            font-weight: bold;
+            margin: 10px 0;
+            text-decoration: underline;
+			text-align: center;
+        }
